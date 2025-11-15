@@ -1,6 +1,6 @@
-# 🎭 IntelliSuite Automation Framework with Playwright (TypeScript + POM + Allure)
+# 🎭 Playwright Automation Framework (TypeScript + POM + Allure)
 
-This repository contains an end-to-end automation framework to automate IntelliSuite functionalities built using [Playwright](https://playwright.dev/), with TypeScript, Page Object Model (POM), ESLint, Prettier, Winston Logs and Allure reporting integration.
+This repository contains an end-to-end automation framework to automate UI functionalities as well as API functionalities built using [Playwright](https://playwright.dev/), with TypeScript, Page Object Model (POM), ESLint, Prettier, Winston Logs and Ortwoni reporting integration.
 
 ---
 
@@ -11,8 +11,7 @@ Make sure the following are installed on your machine:
 | Tool                                                                   | Version                             |
 | ---------------------------------------------------------------------- | ----------------------------------- |
 | [Node.js](https://nodejs.org/)                                         | >= 20.x                             |
-| [Git](https://git-scm.com/)                                            | Latest                              |
-| [Allure CLI](https://docs.qameta.io/allure/#_installing_a_commandline) | `npm install -g allure-commandline` |
+| [Git](https://git-scm.com/)                                            | 
 
 ## ✅ Structure of project
 
@@ -24,7 +23,8 @@ INTELLISUITE-E2E/
 └──test-data
 └──tests/
 └──utils
-├── allure-report/
+├── playwright-report/
+├── my-report/
 ├── playwright.config.ts
 ├── tsconfig.json
 ├── .eslintrc.json
@@ -37,7 +37,7 @@ INTELLISUITE-E2E/
     - Create a file named with .env in root folder
     - Insert below data and enter valid values in where execution has to be happened
 
-        BASE_URL=https://test-automation-1.qa.intellisuite.internal.mavq.io/
+        BASE_URL=https://{url}/
         USERMAIL=userid
         PASSWORD=password
     - Hence this file is being added into .gitignore it won't get committed
