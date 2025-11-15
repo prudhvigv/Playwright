@@ -1,4 +1,4 @@
-# 🎭 Playwright Automation Framework (TypeScript + POM + Allure)
+# 🎭 Playwright Automation Framework (TypeScript + POM + Ortowni)
 
 This repository contains an end-to-end automation framework to automate UI functionalities as well as API functionalities built using [Playwright](https://playwright.dev/), with TypeScript, Page Object Model (POM), ESLint, Prettier, Winston Logs and Ortwoni reporting integration.
 
@@ -54,8 +54,10 @@ INTELLISUITE-E2E/
 
 ## ✅ Execute automation suite in headless mode
 
-    - In order to execute whole suite "npm run test --headed=true" can be used alon
-    - In order to execute a specific scenario "npm run test tests/Metadata_Manager/FileManager/FieldType.spec --headed=true" can be used.
+    - To execute whole suite `npm run test --headed=true` can be used alone
+    - To execute a specific scenario `npm run test tests/Metadata_Manager/FileManager/FieldType.spec --headed=true` can be used.
+    - To execute whole suite in headed mode `npm run test:headed`
+    - To execute using specific tags `npm run test -g\"@Smoke\"`
 
 ## ✅ Resources and Best practices
 
