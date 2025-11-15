@@ -15,7 +15,7 @@ Make sure the following are installed on your machine:
 
 ## ✅ Structure of project
 
-INTELLISUITE-E2E/
+Playwright/
 ├── src/
 └──config
 └──hooks
